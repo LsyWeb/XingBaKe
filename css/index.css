@@ -1,0 +1,306 @@
+
+html {
+    font-size: 62.5% !important;    /* 取默认字体的百分比 */
+}
+@media (min-width: 992px){
+    html {
+        font-size: 62.5%;
+    }
+}
+@media (min-width: 768px){
+    html {
+        font-size: 59%;
+    }
+}
+@media (min-width: 576px){
+    html {
+        font-size: 56%
+    }
+}
+body{
+    overflow-x: hidden !important;
+}
+a:hover{
+    text-decoration: none !important;
+}
+
+.leftContent header{
+    height: 80px;
+}
+
+.leftContent li a{
+    font-size: 1.6rem;
+}
+
+.leftContent .icon-ziyuan{
+
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.login{
+    height: calc(100vh - 80px);
+}
+
+.login a{
+    vertical-align: middle;
+    font-size: 1.6rem !important;
+}
+.login a:hover{
+    text-decoration: none;
+}
+.login .icon-denglu{
+    font-size: 2rem;
+    vertical-align: middle;
+}
+
+.icon-guanbi{
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.login .register{
+    border-radius: 13px;
+}
+
+.leftContent .list li{
+    font-weight: bold;
+}
+.leftContent .list li a{
+    font-size: 1.8rem;
+    color: #000;
+}
+
+.list a:hover{
+    text-decoration: none;
+}
+
+@media (max-width:991.98px){
+    .leftContent{
+        position: relative !important;
+    }
+    .leftContent .login{
+        height: auto;
+    }
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 0 15px;
+    z-index: 2000;
+    transition: .3s;
+}
+
+.menu.hide{
+    opacity: 0;
+    z-index: -1;
+    transform: scale(2);
+}
+.menu.show{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.menu-login{
+    font-size: 1.6rem;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
+.menu .icon-denglu{
+    font-size:2rem;
+    vertical-align: middle;
+}
+
+.menu .register{
+    border-radius: 13px;
+    font-size: 1.6rem;
+}
+.menu footer a{
+    color: rgba(0,0,0,0.38);
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+/* 右侧内容 */
+.icon-jiantou,
+.icon-arrow-right-copy-copy-copy{
+    font-size: 6rem;
+}
+
+.club h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.club p{
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    color: rgba(0,0,0,.56);
+}
+
+.club a{
+    color: #C2A661;
+}
+
+.club .wrapper{
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.club button{
+    border-radius: 13px;
+    font-size: 1.6rem;
+}
+.betters h2,.thea h2{
+    font-size: 2.2rem;
+}
+
+.betters p , .thea p{
+    font-size: 1.6rem;
+    color: rgba(0,0,0,.56);
+}
+
+.betters a{
+    transition: .2s;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.12);
+}
+
+.betters li{
+    margin-top: 56px;
+}
+.betters a img{
+    width: 65%;
+    margin-top: -38px;
+}
+
+.betters a:hover{
+    text-decoration: none;
+    box-shadow: 0 0 4px rgba(0,0,0,0.22);
+    transform: translateY(-5px);
+}
+.betters h3{
+    font-size: 1.6rem;
+}
+
+.betters p{
+    font-size: 1.4rem;
+}
+.betters span{
+    font-size: 1.2rem;
+    color: #C2A661;
+    opacity: 0.7;
+}
+.betters a:hover span{
+    opacity: 1;
+}
+.betters .wrapper{
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.thea ul{
+    width: 1216px;
+}
+
+.thea li{
+    width: 288px;
+}
+.scroll{
+    overflow: hidden !important;
+    position: relative !important;
+    
+}
+
+.scroll ul{
+    transition: .6s;
+}
+
+.scroll li {
+    transition: .2s;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.12);
+}
+
+.scroll span{
+    top: 6px;
+    left: 0;
+    background: #C2A661;
+    color: #fff;
+    font-size: 1.4rem;
+}
+.scroll li:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 1px 2px rgba(0,0,0,0.12);
+}
+
+.scroll .leftBtn,
+.scroll .rightBtn{
+    position: absolute;
+    top: 50%;
+    margin-top: -1.5rem;
+    width:3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.scroll .leftBtn{
+    left: 8%;
+}
+.scroll .rightBtn{
+    left: 92%;
+}
+
+.fill a{
+    font-size: 1.6rem;
+    color: #000;
+}
+.fill a:hover{
+    text-decoration: none;
+}
+
+/* 底部菜单栏 */
+.baseMenu {
+    bottom: 0;
+}
+
+.baseMenu ul{
+    box-shadow: 0,0,4px,rgba(0,0,0,0.12);
+}
+
+.baseMenu li a{
+    font-size: 1.4rem;
+    color: rgba(0,0,0,.56);
+}
+
+.baseMenu li a.active{
+    color: #00A862 !important;
+}
+
+.baseMenu a span{
+    font-size: 2.2rem;
+}
+
+@media (max-width:256px) {
+    .baseMenu ul{
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+    .baseMenu ul li{
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
+    .baseMenu ul a{
+        font-size: 1.2rem;
+    }
+
+}
